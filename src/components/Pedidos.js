@@ -18,7 +18,7 @@ const Pedidos = ({ pedidoActual, pedidosConfirmados, onEliminar, onConfirmar, me
           onChange={(e) => setMesa(e.target.value)}
         />
         {pedidoActual.map((combo, index) => (
-          <div key={index} className="combo-item">
+          <div key={index}>
             <span>
               {combo.name} - ${combo.price} x {combo.quantity}
             </span>

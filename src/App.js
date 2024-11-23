@@ -41,7 +41,8 @@ const App = () => {
 
   return (
     <div className="App">
-      <h1>Gestión de Pedidos</h1>
+      <h1>APP MOZO EXPRESS</h1>
+      
       <ComboList
         combos={combosDisponibles}
         handleAddCombo={handleAddCombo}
